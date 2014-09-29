@@ -65,6 +65,7 @@ body {
 
 #maincontent h1,h2,h3 {
     font-family:times;
+    color:#534D42;
 }
 
 #maincontent p {
@@ -101,8 +102,10 @@ body {
     font-family:verdana;
 }
 
-#subcontent h1,h2,h3 {
+#subcontent h1,h3 {
     font-family:times;
+    color:#534D42;
+    font-size:1.3em;
 }
 
 #bottomcontent {
