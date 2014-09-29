@@ -1,1 +1,23 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#topbar {
+    text-align:right;
+    height:100px;
+    background-color:#51473d;
+}
+
+#menu a {
+    color:#000000;
+    text-decoration:none;
+    float:left;
+    margin-right:5px;
+    padding:5px;
+} 
+
+#menu li {
+    list-style-type:none;
+}
+
+#menu:first-child {
+    display:hidden;
+}
