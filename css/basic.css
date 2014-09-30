@@ -3,29 +3,30 @@
 body {
     margin:0px;
     padding:0px;
-    background-color:#EAE7D2;
 }
 
 #topbar {
     text-align:right;
+    font-style:italic;
+    font-size:0.8em;
+    padding-top:5px;
     color:#EAE7D2;
-    height:230px;
+    height:249px;
     background-color:#51473D;
     position:relative;
-    width:100%;
+    width:600px;
     background-image:url(pics/coffey.jpg);
     background-repeat:no-repeat;
-    background-size:70% 65%;
-    background-position:364px 50px;
+    background-position:0px 20px;
 }
 
 #menu a {
     position:relative;
-    bottom:45px;
-    left:324px;
+    bottom:44px;
     text-decoration:none;
     float:left;
-    margin-right:5px;
+    right:30px;
+    margin-right:1px;
     padding:5px;
     padding-left:15px;
     padding-right:15px;
@@ -33,6 +34,11 @@ body {
     color:#EAE7D2;
     font-family:arial;
 } 
+
+#menu li.active a {
+    background-color:#EAE7D2;
+    color:#9D8B97;
+}
 
 #menu li.active a {
     background-color:#EAE7D2;
@@ -58,23 +64,21 @@ body {
 
 #content {
     position:relative;
+    overflow:both;
     bottom:16px;
-    right:190px;
-    overflow:hidden;
-    width: 70%;
+    width: 600px;
     background-color:#EAE7D2;
-    height:700px;
+    height:530px;
 }
 
 #content p,h1,h2,h3,a {
-    padding-left:15px;
+    padding-left:10px;
 }
 
 #maincontent {
     position:relative;
-    top:35px;
     float:left;
-    width:55%;
+    width:370px;
 }
 
 #maincontent h1,h2,h3 {
@@ -84,12 +88,25 @@ body {
 
 #maincontent p {
     font-family:verdana;
+    line-height:1.5em;
+    font-size:0.85em;
+    padding-right:5px;
+    color:#534d42;
 }
 
 #maincontent img {
     float:left;
-    padding-left:5px;
+    padding-left:10px;
     margin-right:10px;
+}
+
+
+#subcontent {
+    position:relative;
+    top:20px;
+    width:227px;
+    float:right;
+    border-left:2px gray dashed;
 }
 
 #subcontent li {
@@ -102,26 +119,22 @@ body {
     position:relative;
     top:10px;
     font-size:0.88em;
-}
-
-#subcontent {
-    position:relative;
-    top:60px;
-    width:44%;
-    float:right;
-    border-left:2px gray dashed;
+    font-weight:lighter;
 }
 
 #subcontent p {
     font-family:verdana;
-    font-size:0.95em;
-    line-height:30px;
+    font-size:0.65em;
+    line-height:23px;
+    color:#534d42;
+    
 }
 
-#subcontent h1,h3 {
+#subcontent h1 {
     font-family:times;
     color:#534D42;
-    font-size:1.3em;
+    font-size:1.2em;
+    font-weight:lighter;
 }
 
 #subcontent a {
@@ -130,8 +143,9 @@ body {
 
 #bottomcontent {
     position:relative;
-    top:40px;
     float:left;
     font-style:italic;
-    font-size:0.85em;
+    font-size:0.70em;
+    padding-left:10px;
+    color:#534d42;
 }
